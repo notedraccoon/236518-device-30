@@ -1,7 +1,7 @@
 # Личный проект «Девайс»
 
 * Студент: [Опознанный Енот](https://up.htmlacademy.ru/htmlcss/30/user/236518).
-* Наставник: `Андрей Пудов`.
+* Наставник: [Андрей Пудов](https://htmlacademy.ru/profile/kamelot43).
 
 ---
 
