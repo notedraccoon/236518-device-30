@@ -11,7 +11,8 @@
             <ul>
                 <li><a><img src="img/index-logo.svg" alt="Логотип интернет-магазина «Девайс»"></a></li>
                 <li><a href="catalog.html">Каталог товаров<img src="https://via.placeholder.com/22x22" alt="Иконка раскрытия каталога"></a></li>
-                <li><ul>
+                <li>
+                    <ul>
                         <li><a href="blank.html">Виртуальная реальность</a></li>
                         <li><a href="blank.html">Моноподы для селфи</a></li>
                         <li><a href="blank.html">Экшн-камеры</a></li>
@@ -29,7 +30,9 @@
         <div>
             <img src="https://via.placeholder.com/16x16" alt="Иконка поиска">
             <form action="#" method="POST">
-                <input type="search" placeholder="Поиск по сайту">
+                <label for="search-text">
+                    <input id="search-text" type="search" name="text" placeholder="Поиск по сайту">
+                </label>
             </form>
         </div>
         <!--Пользователькое меню-->
@@ -48,13 +51,11 @@
             <section>
                 <h2 class="visually-hidden">Промослайдер</h2>
                 <!--Навигация по слайдерам, кнопки переключения-->
-                <nav>
                     <ul>
                         <li><a><img src="https://via.placeholder.com/12x12" alt="Иконка кнопки навигации между слайдерами"></a></li>
                         <li><a href="#"><img src="https://via.placeholder.com/12x12" alt="Иконка кнопки навигации между слайдерами"></a></li>
                         <li><a href="#"><img src="https://via.placeholder.com/12x12" alt="Иконка кнопки навигации между слайдерами"></a></li>
                     </ul>
-                </nav>
                 <!--Слайд 01-->
                 <article>
                     <h3 class="visually-hidden">Товар дня: Самый длинный монопод для селфи</h3>
@@ -122,13 +123,11 @@
         <section>
             <h2 class="visually-hidden">Сервисы</h2>
                 <!--Навигация по слайдерам, кнопки перекллючения-->
-                <nav>
                     <ul>
                         <li><a>Доставка</a></li>
                         <li><a href="#">Гарантия</a></li>
                         <li><a href="#">Кредит</a></li>
                     </ul>
-                </nav>
                 <!--Слайд 01-->
                 <article>
                     <h3>Доставка</h3>
